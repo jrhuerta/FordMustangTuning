@@ -21,8 +21,8 @@ There are 2 main ways in which you can start tuning the vechicle.
 
 ### Wheel Tq Error Max
 When the calculated torque does not match the expected range defined by:
-`Torque Model -> Monitoring -> IPC -> Torque Monitors -> Torque Maximun`
-`Torque Model -> Monitoring -> IPC -> Torque Monitors -> Torque Minimun` 
+- `Torque Model -> Monitoring -> IPC -> Torque Monitors -> Torque Maximun`
+- `Torque Model -> Monitoring -> IPC -> Torque Monitors -> Torque Minimun` 
 this error accumulates and it can cause the engine to go into limp mode.
 
 Adjusting this value prevents this from happening
