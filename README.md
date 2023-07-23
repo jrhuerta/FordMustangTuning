@@ -20,7 +20,10 @@ There are 2 main ways in which you can start tuning the vechicle.
 [HPTuners thread explaining Ford's late model torque model](https://forum.hptuners.com/showthread.php?69606-Late-model-Ford-s-Torque-Control-ETC-System&highlight=Wheel+Error+Max)
 
 ### Wheel Tq Error Max
-When the calculated torque does not match the expected range defined by the `Torque Model -> Monitoring -> IPC -> Torque Monitors -> Torque Maximun` and the `Torque Model -> Monitoring -> IPC -> Torque Monitors -> Torque Minimun` this error accumulates and it can cause the engine to go into limp mode.
+When the calculated torque does not match the expected range defined by:
+`Torque Model -> Monitoring -> IPC -> Torque Monitors -> Torque Maximun`
+`Torque Model -> Monitoring -> IPC -> Torque Monitors -> Torque Minimun` 
+this error accumulates and it can cause the engine to go into limp mode.
 
 Adjusting this value prevents this from happening
 `Torque Model -> Monitoring -> IPC -> Torque Monitors -> Wheel Tq Error Max -> 500,000.00-200,000.00`
