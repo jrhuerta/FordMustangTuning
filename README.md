@@ -12,12 +12,11 @@ There are 2 main ways in which you can start tuning the vechicle.
 
 With this configuration you would be using the measured EQ err = Commanded/Measured AFR to make adjustments.
 
-
 ### Closed loop mode
-* Using short term fuel values to correct the calibration
-* Disable LTFT by going to `Fuel -> Oxygen Sensors -> Long Term Fuel Trims` and set it to `Disabled`
-* Use the short term fuel trims histogram to make adjustments.
 
+`Fuel -> Oxygen Sensors -> Long Term Fuel Trims` and set it to `Disabled`
+
+With this configuration you would be using the short term fuel trims histogram to make adjustments.
 
 ## Torque model
 
@@ -34,7 +33,9 @@ Adjusting this value prevents this from happening
 `Torque Model -> Monitoring -> IPC -> Torque Monitors -> Wheel Tq Error Max -> 500,000.00-200,000.00`
 
 ### Pedal WOT
+
  `Airflow -> Electronic Throttle -> Pedal -> Peda Pos WOT Start`: control the transition from the Driver Demand Table to WOT
+ 
  `Airflow -> Electronic Throttle -> Pedal -> Peda Pos WOT Start`: this is the position at which the throttle body is at WOT
 
 
