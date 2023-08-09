@@ -1,0 +1,10 @@
+#1 In speed density you need to put your expected maximum boost in the MAP Max Delta above BP table.
+#2 Set your Load at WOT table to something more realistic
+#3 Max Aircharge Load set to 1.9
+#4 Calc MAP(you fixed already)
+#5 Airflow - General - Cylair WOT Multiplier - Set to 1.75
+#6 Cylair Max Multiplier set to 0.95
+#7 Desired Air Mass Max Load - Set to 1.75
+#8 Set your MAF back to stock
+#9 Get the injector data for either ID1300 or ID1300x2 from the ford info sheet ID provides
+#10 See if it starts and idles --- DO NOT -- go wot until you check if the fuel is good 
