@@ -1,6 +1,8 @@
-# FordMustangTuning
+# Tuning a 2017 Ford Mustang 3.7L V6
 
-Notes related to tuning my 2017 Ford Mustang 3.7L V6 car with the following modifications:
+This a compilation fo the steps to tune my personal car after installing a Procharger on it.
+
+The list of the modifications are as follow:
 
 * FIC660 fuel injectors
 * Motorcraft CX2391 MAP Sensor
@@ -8,6 +10,19 @@ Notes related to tuning my 2017 Ford Mustang 3.7L V6 car with the following modi
 * DW400 fuel pump
 * AEM v3 water meth injection system
 
+I'm new to tuning so I decided to take a step approach to doing this modifications in order to understand changes and iterate from a working state to a working state. At each step I will link the calibration file with the corresponding modifications so you can compare and understand the changes. For some steps I will add links relevant articles from the HPTuners forum. 
+
+I started from the [stock calibration](./calibrations/1%20-%202017%20Ford%20Mustang%20V6%20Coupe%20-%203.7L%20-%20Stock.hpt) downloaded from the car before any modifications.
+
+## MAP sensor:
+
+This model uses a MAP sensor instead of a MAF. The factory MAP sensor is a 1 bar and as I'm adding boost I will need to replace the factory sensor with one that is able to measure above atmosferic pressure. To make things simpler I decided to use the sensor from an Ford Mustang I4 2.4L Ecoboost. These can be easily purchased and more importantly you can find out the required parameters to make it work from an [ecoboost stock calibration]() that you cand download from the HPTuners tune repository.
+
+
+
+## Injector characterization
+
+I purchased FIC660 injectors as they have good reputation for having realiable injector characterization data. You can download your data for the Ford ECU from their site for your specific injectors and adjust your calibration 
 
 ## Open vs Close loop tuning
 
